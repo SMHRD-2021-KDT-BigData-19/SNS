@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 7px; /* 높이를 늘림 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* 버튼이 가득 차도록 */
+    margin-bottom: 10px;
+    }
+
+button:hover {
+    background-color: #555;
+    }
+
+    .input-container {
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border: 2px solid #000;
+}
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.other-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
