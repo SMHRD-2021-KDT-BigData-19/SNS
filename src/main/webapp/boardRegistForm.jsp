@@ -41,11 +41,6 @@
     
 </div>
     <script src="./JS/글스기.js"></script>
-    <script>
-        greet(); // 외부 스크립트에 정의된 함수 호출
-    </script>
-    <script src="./JS/글스기.js?v=2"></script>
-
-
+   
 </body>
 </html>

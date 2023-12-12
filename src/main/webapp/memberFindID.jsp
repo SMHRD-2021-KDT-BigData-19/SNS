@@ -12,7 +12,7 @@
         <h1>아이디 찾기</h1>
     </header>
     <main>
-        <form action="YourIdLookupServlet" method="post"> <!-- Replace YourIdLookupServlet with the actual servlet handling the ID lookup -->
+        <form action="YourIdLookupServlet" method="post"> 
             <label for="email">등록한 이메일:</label>
             <input type="email" id="email" name="email" placeholder="이메일을 입력하세요">
 

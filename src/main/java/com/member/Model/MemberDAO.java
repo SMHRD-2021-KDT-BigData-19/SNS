@@ -47,7 +47,6 @@ public class MemberDAO {
 			conn = getConnection();
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, id);	
-			//System.out.println(pstmt.toString());
 			rs = pstmt.executeQuery(); //실행한 결과 객체에 저장
 			if (rs.next()) {
 				if (rs.getString(1) != null

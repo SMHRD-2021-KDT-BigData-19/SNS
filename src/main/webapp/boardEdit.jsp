@@ -10,13 +10,10 @@
 <jsp:useBean id = "dao" class="boardController.BoardDAO"/>
 
 <jsp:setProperty name = "vo" property="*"/>
-<!-- ==> vo <- request.getParmaer("title")... -->
 
 <%
 	dao.update(vo);
 	pageContext.setAttribute("vo",vo);
-
-//response.sendRedirect(request.getContextPath()+"boardList.jsp"); 와 같은 내용 
 %>
 
 <c:redirect url = "boardDetail.jsp?num=${vo.num}">

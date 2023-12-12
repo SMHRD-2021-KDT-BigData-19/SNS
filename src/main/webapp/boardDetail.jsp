@@ -3,12 +3,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%-- <%
-	BoardDAO dao = new BoardDAO();
-	객체 생성
-	<jsp:useBean id = "dao" class="boardController.BoardDAO"/>
-	액션태그와 동일
-%>  --%>
+
 <jsp:useBean id = "dao" class="boardController.BoardDAO"/>
 <%
 	int num = Integer.parseInt(request.getParameter("num"));

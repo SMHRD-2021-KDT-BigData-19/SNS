@@ -39,11 +39,5 @@
         </div>
     </form>
     <script src="../JS/마이페이지.js"></script>
-
-    <!-- 외부 스크립트로부터 함수 호출 -->
-    <script>
-        greet(); // 외부 스크립트에 정의된 함수 호출
-    </script>
-    <script src="../JS/마이페이지.js?v=2"></script>
 </body>
 </html>

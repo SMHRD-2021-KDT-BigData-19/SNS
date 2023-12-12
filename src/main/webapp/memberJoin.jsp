@@ -31,13 +31,7 @@
 	 <input type="submit" class="register-btn" onclick="showAlert()" value="가입하기">
 </form>
 <!-- 외부 스크립트 로드 -->
-<script src="../JS/회원가입.js"></script>
-
-<!-- 외부 스크립트로부터 함수 호출 -->
-<script>
-    greet(); // 외부 스크립트에 정의된 함수 호출
-</script>
-<script src="../JS/회원가입.js?v=2"></script>
+<script src="./JS/회원가입.js"></script>
 
 </body>
 </html>

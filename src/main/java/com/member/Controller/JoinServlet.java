@@ -29,19 +29,13 @@ public class JoinServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
-		//String name = request.getParameter("name");
-		//String nick = request.getParameter("nick");
 		String id = request.getParameter("id");
 		String pw = request.getParameter("pw");
 		String email = request.getParameter("email");
-		//String phone = request.getParameter("phone");
 		MemberVO vo = new MemberVO();
-		//mVo.setName(name);
-		//mVo.setNick(nick);
 		vo.setId(id);
 		vo.setPw(pw);
 		vo.setEmail(email);
-		//mVo.setPhone(phone);
 		MemberDAO dao = MemberDAO.getInstance();
 		int result = dao.insertMember(vo); // 회원 데이터를 데이터베이스에 삽입
 		HttpSession session = request.getSession();

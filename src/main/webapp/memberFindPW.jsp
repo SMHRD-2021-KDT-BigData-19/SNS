@@ -12,7 +12,7 @@
         <h1>비밀번호 찾기</h1>
     </header>
     <main>
-        <form action="YourPasswordResetServlet" method="post"> <!-- Replace YourPasswordResetServlet with the actual servlet handling the password reset -->
+        <form action="YourPasswordResetServlet" method="post"> 
             <label for="username">아이디:</label>
             <input type="text" id="username" name="username" placeholder="아이디를 입력하세요">
 

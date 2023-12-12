@@ -25,7 +25,6 @@ public class LoginServlet extends HttpServlet {
 		String url = "memberLogin.jsp";
 		HttpSession session = request.getSession();
 		if (session.getAttribute("loginUser") != null) {// 이미 로그인 된 사용자이면
-			//url = "main.jsp"; // 메인 페이지로 이동한다.
 			url = "boardList.jsp"; // 메인 페이지로 이동한다.
 		}
 		RequestDispatcher dispatcher = request.getRequestDispatcher(url);
@@ -37,8 +36,8 @@ public class LoginServlet extends HttpServlet {
 		String url = "boardList.jsp";
 		String id = request.getParameter("id");
 		String pw = request.getParameter("pw");
-		MemberDAO dao = MemberDAO.getInstance(); //**
-		int result = dao.login(id, pw); //**
+		MemberDAO dao = MemberDAO.getInstance();
+		int result = dao.login(id, pw);
 		if (result == 1) {
 			MemberVO vo = dao.getMember(id);
 			HttpSession session = request.getSession();

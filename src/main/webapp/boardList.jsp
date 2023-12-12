@@ -69,8 +69,6 @@
     </div>
 
     <span class="right">
-      <!--   <input type="button" value="목록" class="greylist"> -->
-        <!-- <input type="button" value="글쓰기" class="gradient"> -->
         <a href="<c:url value="boardRegistForm.jsp"/>"><button class="gradient">글쓰기</button></a>
     </span>
     <script src="./JS/게시판.js"></script>
