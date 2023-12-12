@@ -47,7 +47,7 @@
 
         <!-- 전송 버튼 -->
         <span class="rmfwkrtjd">
-            <input type="submit" value="글 작성" onclick="location.href='boardDetail.jsp/?num=${vo.num}'"> 
+            <input type="submit" value="수정" onclick="location.href='boardDetail.jsp/?num=${vo.num}'"> 
             <input type="submit" value="목록" onclick="location.href='boardList.jsp'">
         </span>
     </form>

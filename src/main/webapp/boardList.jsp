@@ -23,15 +23,15 @@
 
 <body>
     <h2> 게시글 리스트 </h2>
-    <button class="rptlvks" onclick="location.href='memberMypage.jsp'">마이페이지</button>
+    <button class="gradient" onclick="location.href='memberMypage.jsp'">마이페이지</button>
     <hr class="hr1" noshade>
 
     <form>
         <span class="right">
             <span class="grey" id="strong">검색</span>
             <select>
-                <option value="제목" name="제목">제목</option>
-                <option value="글쓴이" name="글쓴이">글쓴이</option>
+                <option>제목</option>
+                <option>글쓴이</option>
             </select>
             <input type="text">
             <input type="button" name="검색" class="gradient" value="검색">
@@ -75,10 +75,5 @@
     </span>
     <script src="./JS/게시판.js"></script>
 
-    <!-- 외부 스크립트로부터 함수 호출 -->
-    <script>
-        greet(); // 외부 스크립트에 정의된 함수 호출
-    </script>
-    <script src="./JS/게시판.js?v=2"></script>
 </body>
 </html>

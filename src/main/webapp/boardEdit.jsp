@@ -13,7 +13,7 @@
 <!-- ==> vo <- request.getParmaer("title")... -->
 
 <%
-	dao.insertboard(vo);
+	dao.update(vo);
 	pageContext.setAttribute("vo",vo);
 
 //response.sendRedirect(request.getContextPath()+"boardList.jsp"); 와 같은 내용 

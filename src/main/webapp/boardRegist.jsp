@@ -13,9 +13,9 @@
 <!-- ==> vo <- request.getParmaer("title")... -->
 
 <%
-	dao.update(vo);
+	dao.insertboard(vo);
 
 //response.sendRedirect(request.getContextPath()+"boardList.jsp"); 와 같은 내용 
 %>
 
-<c:redirect url="boardDetail.jsp?num=${vo.num}" />
+<c:redirect url="boardList.jsp" />

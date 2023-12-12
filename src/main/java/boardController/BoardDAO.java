@@ -66,14 +66,10 @@ public class BoardDAO {
 		String query="SELECT num, title, userid, nick, content, regdate, cnt from board order by num desc";
 		ArrayList<BoardVo> list = new ArrayList<BoardVo>();	
 		try {
-			System.out.println("con");
 			con = ju.getConnection(); //db연결
-			System.out.println("stmt");
 			stmt = con.createStatement();
-			System.out.println("rs");
 			rs = stmt.executeQuery(query); //입력결과
 			
-			System.out.println("while문이 문제인가");
 			while(rs.next()) {
 				BoardVo vo = new BoardVo( //값을 하나씩 넣기 위해 생성자 호출
 				rs.getInt(1),
@@ -82,7 +78,7 @@ public class BoardDAO {
 				rs.getString(4),
 				rs.getString(5),
 				new Date(rs.getDate(6).getTime()),
-				rs.getInt(7)+1
+				rs.getInt(7)
 				);
 				list.add(vo); //vo객체가 하나씩 모두 담김
 			System.out.println("db값 가져오기");
@@ -136,7 +132,7 @@ public class BoardDAO {
 				rs.getString(4),
 				rs.getString(5),
 				new Date(rs.getDate(6).getTime()),
-				rs.getInt(7)
+				rs.getInt(7)+1
 				);
 			}
 		}catch(SQLException e) {

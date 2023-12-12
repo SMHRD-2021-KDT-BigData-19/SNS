@@ -33,9 +33,9 @@
 
         <!-- 전송 버튼 -->
         <span class="rmfwkrtjd">
-            <input type="submit" value="글 작성" onclick="location.href='boardRegist.jsp'">
+            <input type="submit" value="글 작성" >
          
-            <input type="submit" value="목록"  onclick="location.href='boardRegist.jsp'">
+            <input type="submit" value="목록"  onclick="location.href='boardList.jsp'">
         </span>
     </form>
     

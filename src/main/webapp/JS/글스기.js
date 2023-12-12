@@ -17,8 +17,8 @@ function handleFile(file) {
 }
 function rptlvks() {
 alert("글이 게시되었습니다.");
-window.location.href = "boardList.jsp";
+window.location.href = "../HTML/게시판.html";
 }
 function ahrfhr() {
-    window.location.href = "boardList.jsp";
+    window.location.href = "../HTML/게시판.html";
     }

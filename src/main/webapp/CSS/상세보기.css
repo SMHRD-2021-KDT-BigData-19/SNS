@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+}
+
+main {
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000;
+}
+
+#post-info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#post-content {
+    text-align: left;
+}
+
+#comments {
+    margin-top: 20px;
+}
+
+#comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#comment-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+#comment-form {
+    margin-top: 20px;
+}
+
+#comment-input {
+    width: 98%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+/* 댓글 추가 버튼 스타일 */
+#comment-form button {
+    background-color: #000;
+    color: #fff; /* 화이트로 변경 */
+    border: none;
+    padding: 5px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#comment-form button:hover{
+    background-color: #555;
+}
+#views, #upload-info{
+    margin-left: 330px;
+}
+#views{
+    margin-right: 20px;
+}
+
+#upload-info {
+    margin-left: auto;
+}
+
+#post-info div {
+    display: flex;
+    align-items: center;
+}
+
+#post-info p {
+    margin-bottom: 0;
+}
+#post-info {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 14px; /* 원하는 크기로 조절하세요 */
+}
+
+.content-container {
+    padding: 200px; /* 여백 크기 조절 */
+    border: 1px solid #ccc; /* 테두리 스타일 및 색상 설정 */
+    border-radius: 8px; /* 테두리 모서리 둥글게 설정 (선택 사항) */
+    text-align: left;
+    vertical-align: top;
+}

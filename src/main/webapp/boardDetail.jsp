@@ -15,48 +15,58 @@
 	BoardVo vo = dao.selectone(num);
 	pageContext.setAttribute("vo", vo);
 %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>게시글 상세보기</title>
-<script type="text/javascript" src="script/board.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/상세보기.css">
+    <title>나의 게시물</title>
 </head>
 <body>
-	<div id="wrap" align="center">
-		<h1>게시글 상세보기</h1>
-		<table>
-			<tr>
-			<!-- num, title, userid, nick, content, regdate, cnt -->
-				<th>번호</th>
-				<td>${vo.num}</td>
-				<th>작성일</th>
-				<td>${vo.regdate}</td>				
-			</tr>
-			<tr>
-				<th>닉네임</th>
-				<td>${vo.nick}</td>
-				<th>조회수</th>
-				<td>${vo.cnt}</td>
-			</tr>
-			<tr>
-				<th>제목</th>
-				<td colspan="3">${vo.title}</td>
-			</tr>
-			<tr>
-				<th>내용</th>
-				<td colspan="3"><pre>${vo.content}</pre></td>
-			</tr>
-		</table>
-		<br> <br> 
+    <main>
+        <header>
+            <h1>${vo.title}</h1>
+        </header>
+        <div id="post-info">
+            <div>
+                <p id="nickname">${vo.nick}</p>
+            </div>
+            <div>
+                <p id="views">조회수: ${vo.cnt}</p>
+            </div>
+            <div>
+                <p id="upload-info"></p>
+            </div>
+        </div>
+        <section id="post-content">
+            <div class="content-container">
+            ${vo.content}
+       
+                <!-- Add your content here if needed -->
+            </div>
+            <section id="comments">
+                <h3>댓글</h3>
+                <ul id="comment-list">
+                    <!-- 댓글이 나열될 곳입니다. -->
+                    <!-- 예: <li><span class="comment-time">날짜 및 시간</span> 댓글 내용</li> -->
+                </ul>
+                <form id="comment-form">
+                    <div id="comment-input-container">
+                        <textarea id="comment-input" placeholder="댓글을 입력하세요"></textarea>
+                        <button type="button" onclick="addComment()">댓글 작성</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+        <br> <br> 
 		<a href="<c:url value="boardEditForm.jsp?num=${vo.num}"/>">
 		<button>게시글 수정</button></a>
 		<a href="<c:url value="boardDeleteForm.jsp?num=${vo.num}"/>">
 		<button>게시글 삭제</button></a>
 			<a href="<c:url value="boardList.jsp"/>">
 		<button>게시글 리스트</button></a>
-			
-		
-	</div>
+    </main>
+    <script src="./JS/상세보기.js"></script>
 </body>
 </html>
