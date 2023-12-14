@@ -25,7 +25,9 @@
 </br>
 
 ## 3. ERD 설계
-![](https://github.com/SMHRD-2021-KDT-BigData-19/SNS/blob/master/src/main/webapp/%EC%9D%B4%EB%AF%B8%EC%A7%80/ERD.jpg)
+
+![member_board_erd](https://github.com/SMHRD-2021-KDT-BigData-19/SNS/assets/61234971/8b9f88f3-b3ce-4667-a3fc-e878fbbb3880)
+
 
 </br>
 ## 4. 핵심 기능
@@ -53,7 +55,8 @@
 - *위치기반 서비스*
 <br>
 
-![](https://github.com/SMHRD-2021-KDT-BigData-19/SNS/blob/master/src/main/webapp/%EC%9D%B4%EB%AF%B8%EC%A7%80/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%AC%ED%98%841.jpg)
+![페이지 구현1](https://github.com/SMHRD-2021-KDT-BigData-19/SNS/assets/61234971/08a8da09-c014-4e85-8320-3c4136be2bac)
+
 
 </br>
 </br>
