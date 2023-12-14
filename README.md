@@ -22,14 +22,13 @@
 </br>
 
 ## 3. ERD 설계
-![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/final_erd.png)
-![](https://github.com/JungHyung2/gitio.io/blob/master/assets/images/portfolio/p1.jpg)
+![](https://github.com/SMHRD-2021-KDT-BigData-19/SNS/blob/master/src/main/webapp/%EC%9D%B4%EB%AF%B8%EC%A7%80/ERD.jpg)
 
 
 ## 4. 핵심 기능
-이 서비스의 핵심 기능은 컨텐츠 등록 기능입니다.  
-사용자는 단지 컨텐츠의 카테고리를 선택하고, URL만 입력하면 끝입니다.  
-이 단순한 기능의 흐름을 보면, 서비스가 어떻게 동작하는지 알 수 있습니다.  
+이 서비스의 핵심 게시글 등록과 삭제 및 업데이트 기능입니다.  
+사용자는 회원가입을 통해 로그인을 할 수 있으면 게시판의 등록(CREATE) 읽기(READ)
+수정(UPDATE) 삭제(DELETE) 서비스를 활용할 수 있습니다.  
 
 <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
