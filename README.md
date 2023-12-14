@@ -24,11 +24,34 @@
 ## 3. ERD 설계
 ![](https://github.com/SMHRD-2021-KDT-BigData-19/SNS/blob/master/src/main/webapp/%EC%9D%B4%EB%AF%B8%EC%A7%80/ERD.jpg)
 
-
+</br>
 ## 4. 핵심 기능
 이 서비스의 핵심 게시글 등록과 삭제 및 업데이트 기능입니다.  
 사용자는 회원가입을 통해 로그인을 할 수 있으면 게시판의 등록(CREATE) 읽기(READ) <br>
 수정(UPDATE) 삭제(DELETE) 서비스를 활용할 수 있습니다.  
+
+학습했던 jsp와 servlet을 응용하기 위하여
+게시판 기능은 jsp로만, 회원기능은 servlet과 jsp를 모두 
+활용하여 작업하였습니다.
+
+</br>
+
+## 5. *추가 작업 목표*
+- 이메일 인증 서비스
+- 회원 ID/PW 찾기 서비스
+- *SNS 연동 서비스*
+  <br>
+- 게시판 댓글 기능 구현 - DB연결
+- 검색 기능 구현 - DB연결
+  <br>
+- 채팅 서비스
+- 지도 구현 서비스
+<br>
+
+![](https://github.com/SMHRD-2021-KDT-BigData-19/SNS/blob/master/src/main/webapp/%EC%9D%B4%EB%AF%B8%EC%A7%80/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%AC%ED%98%841.jpg)
+
+</br>
+
 <!--
 <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
