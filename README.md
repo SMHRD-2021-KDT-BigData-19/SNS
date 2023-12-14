@@ -1,22 +1,22 @@
-# :pushpin: SNS 서비스
-> 지역 위치기반 소셜 네트워크 서비스(SNS)
-> 데모사이트 링크
+# :pushpin: 지역 위치기반 소셜 네트워크 서비스(SNS)
+> 게시판 서비스
 
 </br>
 
 ## 1. 제작 기간 & 참여 인원
 - 2023.11.29 ~ 2023.12.12
-- 개인 프로젝트
 
 </br>
 
 ## 2. 사용 기술
 #### `Back-end`
-  - Java 8
-  - Apache Tomcat
-  - Oracle
+  - java 17.0.9
+  - Tomcat 9.0.83
+  - Oracle 11
+  - JSP / Servlet
 #### `Front-end`
-  - HTML/CSS
+  - HTML/CSS/JS
+  - JSP
 
 </br>
 
