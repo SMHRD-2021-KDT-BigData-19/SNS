@@ -27,9 +27,9 @@
 
 ## 4. 핵심 기능
 이 서비스의 핵심 게시글 등록과 삭제 및 업데이트 기능입니다.  
-사용자는 회원가입을 통해 로그인을 할 수 있으면 게시판의 등록(CREATE) 읽기(READ)
+사용자는 회원가입을 통해 로그인을 할 수 있으면 게시판의 등록(CREATE) 읽기(READ) <br>
 수정(UPDATE) 삭제(DELETE) 서비스를 활용할 수 있습니다.  
-
+<!--
 <details>
 <summary><b>핵심 기능 설명 펼치기</b></summary>
 <div markdown="1">
@@ -88,6 +88,8 @@
 
 </div>
 </details>
+
+
 
 </br>
 
@@ -383,3 +385,5 @@ public Page<Post> findAllByTagName(String tagName, Pageable pageable) {
 
 ## 6. 회고 / 느낀점
 >프로젝트 개발 회고 글: https://zuminternet.github.io/ZUM-Pilot-integer/
+>
+>-->
