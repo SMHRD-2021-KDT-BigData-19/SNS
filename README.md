@@ -1,11 +1,11 @@
-# :pushpin: goQuality
->고퀄리티 개발 컨텐츠 공유 서비스  
+# :pushpin: SNS 서비스
+> 지역 위치기반 소셜 네트워크 서비스(SNS)
 > 데모사이트 링크
 
 </br>
 
 ## 1. 제작 기간 & 참여 인원
-- 2019년 2월 18일 ~ 4월 5일
+- 2023.11.29 ~ 2023.12.12
 - 개인 프로젝트
 
 </br>
@@ -13,17 +13,10 @@
 ## 2. 사용 기술
 #### `Back-end`
   - Java 8
-  - Spring Boot 2.3
-  - Gradle
-  - Spring Data JPA
-  - QueryDSL
-  - H2
-  - MySQL 5.7
-  - Spring Security
-  - Jsoup
+  - Apache Tomcat
+  - Oracle
 #### `Front-end`
-  - Vue.js 3.0
-  - Element UI
+  - HTML/CSS
 
 </br>
 
